@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Cookie|PT+Serif|Source+Sans+Pro&display=swap" rel="stylesheet">
+  
+  
+  
+  <style>  
+
+    html {   
+      background: linear-gradient( to bottom right, #f7078f, #ffa928);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+    }
+
+
+    h1 {
+        font-size: 75px;
+        font-family: 'Cookie', cursive;
+        
+    }
+    
+    h2 {
+        font-size: 25px;
+        font-family: 'PT Serif', serif;
+    }
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+
+    footer {
+      font-size: small;
+    }
+
+
+
+  </style>
+</head>
+
+<body id="box-container">
+
+<header id="box-1">
+    <h1 id="title">Cat Lovers Meet</h1> 
+</header>
+   
+
+
+
+<p id="description" id="box-2"> 
+    <h2 id="tagline">We're<em> feline </em>the love</h2>
+  Cat Lovers Meet is here to help you meet that <em>purr-</em>fect someone (and their cat). To apply for membership, fill out the form below right meow!
+</p>
+
+
+<form id="survey-form"> 
+    <p id="user-info" id="box-2">
+  <h2><legend>About Me</legend></h2> 
+<fieldset id="user-info">
+  
+  
+    <label id="name-label" for="name">Name: </label>
+      <input type="text" id="name" placeholder="name" max length="40" required>
+      <br>
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" placeholder="email" required>
+      <br>
+      <label id="number-label" for="zip">Zip Code:</label>
+      <input type="number" id="number" placeholder="zip" min="5" max="5" required> 
+      <br>
+      <label>My age:</label> 
+      <select id="dropdown" for="age">    
+            <option id="18-23">18-23</option>
+            <option id="24-29">24-29</option>
+            <option id="30-35">30-35</option>
+            <option id="36-41">36-41</option>
+            <option id="42-47">42-47</option>
+            <option id="48-53">48-53</option>
+            <option id="54">54+</option>
+        </select>
+        <br>
+    <label>I am:</label>  
+        <select id="dropdown" for="status">
+          <option id="single">Single</option>
+          <option id="committed">Committed</option>
+          <option id="married">Married</option>
+          <option id="divorced">Divorced</option>
+          <option id="polyamorous">Polyamorous</option>
+          <option id="widowed">Widowed</option>
+        </select>
+    
+  
+</fieldset>
+</p>
+<br>
+<h2><legend> I'm looking for: </legend></h2>
+<fieldset id="box-3"> 
+
+      
+      <p name="looking-for">
+           <label id="men-label" for="men">
+               <input id="men" type="checkbox" name="looking-for" value="men">Men
+           </label>
+           <label id="women-label" for="women">
+               <input id="women" type="checkbox" name="looking-for" value="women">Women
+           </label>
+      </p>
+      <label>Age:</label>
+        <select id="dropdown" for="age">
+            <option id="18-23">18-23</option>
+            <option id="24-29">24-29</option>
+            <option id="30-35">30-35</option>
+            <option id="36-41">36-41</option>
+            <option id="42-47">42-47</option>
+            <option id="48-53">48-53</option>
+            <option id="54">54+</option>
+        </select>
+        <p name="cat-status">
+      <legend>with</legend>
+      
+          <label id="cats-label" for="cats">
+              <input id="cats" type="checkbox" name="cat-status" value="cats">cats
+          </label>
+              <input id="no-cats" type="checkbox" name="cat-status" value="no-cats">no cats
+          </label>
+      </p>
+  </fieldset> 
+    <br>
+    <h2><legend>Ownership</legend></h2>
+  <fieldset>
+    <p name="ownership">
+        <label id="have">
+          <input id="have" type="radio" name="ownership" value="have">I have a cat
+        </label>
+        <br>
+        <label id="multi">
+            <input id="multi" type="radio" name="ownership" value="multi">I have multiple cats
+        </label>
+        <br>
+        <label id="none">
+            <input id="none" type="radio" name="ownership" value="none">I love cats, but don't have any
+        </label>
+        <br>
+        <label id="curious">
+            <input id="curious" type="radio" name="ownership" value="curious">Cat-curious
+        </label>
+    </p>  
+  </fieldset>
+ <br>
+  <fieldset>
+ <p id="haiku"> 
+   <label>Write a haiku inspired by your cat in the box below. Be creative!</label>
+ </p> 
+  
+   <p id="haiku-text"></p>
+    <label id="haiku-label" for="textarea">
+        <textarea input type="text" placeholder="Type here">
+
+        </textarea>
+    </label>
+  </p>
+</fieldset>
+<br>
+    <button id="submit">Great! Up next: Personality Quiz</button>
+
+</form>
+
+
+
+
+
+
+</body>
+
+<br>
+
+<footer>
+ <p> Cat Lovers Meet makes no guarantees for the outcome of your membership nor does it verify the sanity or ownership statuses of members. Date at your own risk. &copy; 2019 Cat Lovers Meet</p>
+</footer>
+
+
+</html>
