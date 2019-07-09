@@ -48,11 +48,10 @@
     <h1 id="title">Cat Lovers Meet</h1> 
 </header>
    
+<h2 id="tagline">We're<em> feline </em>the love</h2>
 
 
-
-<p id="description" id="box-2"> 
-    <h2 id="tagline">We're<em> feline </em>the love</h2>
+<p id="description" id="box-2">
   Cat Lovers Meet is here to help you meet that <em>purr-</em>fect someone (and their cat). To apply for membership, fill out the form below right meow!
 </p>
 
